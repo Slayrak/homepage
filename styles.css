@@ -264,7 +264,7 @@ body {
 
 .main-grid {
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 30% 60%;
     gap: 10px;
     grid-template-rows: auto;
 }
@@ -290,6 +290,8 @@ body {
     grid-template-columns: 100%;
     display: grid;
     grid-template-rows: repeat(4, auto);
+
+    margin-left: 10%;
 }
 
 .name-field {
@@ -385,4 +387,23 @@ body {
     grid-row: 2;
 
     width: 100%;
+}
+
+.subgrid {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.projects {
+    grid-column: 1 / 1;
+    grid-row: 3;
+
+    width: 100%;
+}
+
+.year-period {
+    font-family: Calibri, Arial, sans-serif;
+    font-size: 0.9em;
+    font-style: italic;
 }
